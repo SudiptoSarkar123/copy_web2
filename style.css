@@ -69,7 +69,7 @@ nav .menu{
 }
 .hero .content{
     /* background-color: green; */
-    width: 475px;
+    width: 40%;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -161,15 +161,15 @@ nav .menu{
     align-items: center;
     text-align: center; 
 }
-.card img{
+.section-2 .card img{
     width: 80px;
     margin-bottom: 20px;
 }
-.card h1{
+.section-2 .card h1{
     font-size: 25px;
     margin-bottom: 20px;
 }
-.card p{
+.section-2 .card p{
     font-size: 20px;
     color: gray;
     margin-bottom: 20px;
@@ -245,10 +245,10 @@ nav .menu{
     gap: 20px;
     color: white;
 }
-.first h2{
+.section5 .first h2{
     font-size: 40px;
 }
-.first p{
+.section5 .first p{
     font-size: 18px;
     word-spacing: 8px;
     margin-bottom: 20px;
@@ -291,8 +291,9 @@ nav .menu{
 /* ++++++++++++++++++++++++++++++++++++++ section 6 +++++++++++++++++++++++ */
 
 .section6{
-    height: 80vh;
-    padding-top: 8%;
+    
+    padding-top: 70px;
+    margin-bottom: 120px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -325,7 +326,13 @@ ul li{
     padding-bottom: 7px;
     border-bottom: 4px solid black;
 }
-
+.section6 .galery{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
 .section6 .image-galery1 , .image-galery2{
     width: 100%;
     padding: 20px 90px;
@@ -340,4 +347,48 @@ ul li{
     height: 190px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+/* ++++++++++++++++++++++++++++ section 7 +++++++++++++++++++++++ */ 
+
+.section7{
+    height: 120px;
+    background-color: rgb(10, 136, 255);
+    padding: 48px;
+}
+.section7 .offer{
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+    justify-content: space-between;
+    height: 100%;
+    color: white;
+}
+.section7 .first{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.section7 .offer h1{
+    font-size: 25px;
+    margin-left: 0px 24px 4px 0;
+    padding: 0px 24px 0px 0px;
+    border-right: 2px solid white;
+
+}
+
+.section7 .offer p , .section7 .offer .btn{
+    font-size: 18px;
+}
+
+.section7 .second{
+    padding: 0px 16px;
+}
+
+
+.section7 .second .btn{
+    padding: 8px 22px;
+    border: 1px solid white;
+    border-radius: 30px;
 }
