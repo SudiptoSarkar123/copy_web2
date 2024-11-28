@@ -392,3 +392,71 @@ ul li{
     border: 1px solid white;
     border-radius: 30px;
 }
+
+
+
+/* +++++++++++++++++++++ Section 8 +++++++++++++++++++++++ */
+.section8{
+    background-color: #F8F9FA;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #1B1E24;
+    padding: 132px 0px;
+}
+.section8 .text-content{
+    text-align: center;
+    margin:0px 15px 48px;
+    padding: 0px 0px 48px;
+}
+.section8 .text-content h1{
+    font-size: 40px;
+    margin: 0px 0px 8px ;
+}
+.section8 .text-content p{
+    font-size: 16px;
+    margin: 0px 0px 16px;
+}
+
+.section8 .cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+}
+
+.section8 .cards .card{
+    width: 285px;
+    padding: 0px 15px;
+    margin: 0px 0px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+
+}
+.section8 .cards .card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.section8 .cards .card .card-text{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.section8 .cards .card .card-text h1{
+    font-size: 20px;
+    padding: 0px 0px 4px ; 
+}
+
+.card-text .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card-text .icons i{
+    font-size: 20px;
+    color: #0052f6;
+}
